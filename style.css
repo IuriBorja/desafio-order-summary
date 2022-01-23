@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+
+#pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vhpx;
+    padding-top:50px;
+    position: relative;
+}
+
+
+
+.container {
+    width: 350px;
+    height: 150px;
+    padding-top:50px;
+    border-radius: 10px 10px 0px 0px ;
+    background-image: url(./images/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#corpo {
+    width: 350px;
+    height: 400px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    border-radius: 0px 0px 10px 10px; 
+}
+
+.texto {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+    font-size:25px
+}
+
+p {
+    font-size: 16px;
+}
+
+.plano {
+    width: 300px;
+     height: 80px;
+     background-color:hsl(225, 100%, 98%);
+     position: absolute;
+     bottom: 140px;
+     border-radius: 10px; 
+}
+
+.conteudoplano {
+   display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    
+}
+.imagemmusica {
+    width: 40px;
+    height: 40px;
+}
+
+
+.textoconteudo {
+    font-size: 15px;
+    display: flex;
+    
+
+}
